@@ -2,6 +2,14 @@
   display: none;
 }
 
+#whale-showing {
+  display: none;
+}
+
+.well {
+  display:none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -15,10 +23,6 @@
   display: none;
 }
 
-#whale-showing {
-  display: none;
-}
-
 .clickable2 {
   cursor: pointer;
   color: #0088cc;
@@ -26,4 +30,12 @@
 
 .clickable2:hover {
   text-decoration: underline;
+}
+
+.jumbotron {
+  padding: 20px;
+}
+.well {
+  padding: 20px;
+  text-align: center;
 }

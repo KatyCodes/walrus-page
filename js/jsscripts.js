@@ -1,10 +1,11 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+  $("button").click(function(){
+    $(".well").show();
+    $("button").hide();
   });
-  $("#header1").click(function() {
-    $(".koo").fadeToggle("slow");
+  $(".clickable").click(function() {
+    $("#walrus-showing").fadeToggle("fast");
+    $("#walrus-hidden").fadeToggle("fast");
   });
   $(".clickable2").click(function() {
     $("#whale-showing").slideToggle("slow");

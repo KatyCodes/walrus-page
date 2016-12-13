@@ -2,7 +2,7 @@ $(document).ready(function(e) {
   $("button").click(function(){
     $(".container").show();
     $("button").hide();
-    alert("Click on the seahorse to scare him away.")
+    alert("Click on the seahorse to watch him swim.")
   });
   $(".clickable").click(function() {
     $("#walrus").fadeToggle("slow");
@@ -29,8 +29,7 @@ $(document).ready(function(e) {
     var width = "+=" + $(document).width();
    $("#seahorse").animate({
    left: width
- }, 700, function() {
-      setTimeout(goLeft, 50);
+ }, 500, function() {
        $("#seahorse").css("display", "none");
     });
   });

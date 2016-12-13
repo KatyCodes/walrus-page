@@ -8,12 +8,18 @@ body {
    color: white;
 }
 
+p {
+  padding: 4px;
+ font-size: 20px;
+}
+
 #walrus-showing {
   display: none;
 }
 
 #whale-showing {
   display: none;
+  z-index: 1;
 }
 
 .container {
@@ -47,6 +53,7 @@ body {
   padding: 20px;
   background: rgba(255,255,255, 0.1);
   color: white;
+  z-index: -2;
 }
 
 #welcome > button {
@@ -68,11 +75,13 @@ body {
 
 
 #whale {
-  position: fixed;
-   bottom: 1%;
-   right: 1;
-   z-index: -1;
-   display: none;
+  position: absolute;
+  top: 8px;
+  right: 2px;
+  display: none;
+  z-index: 1;
+  height: auto;
+  max-width: 100%;
 }
 
 #seahorse {

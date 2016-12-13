@@ -29,7 +29,8 @@ $(document).ready(function(e) {
     var width = "+=" + $(document).width();
    $("#seahorse").animate({
    left: width
-    }, 5000, function() {
+ }, 700, function() {
+      setTimeout(goLeft, 50);
        $("#seahorse").css("display", "none");
     });
   });
